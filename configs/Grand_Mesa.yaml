@@ -1,0 +1,17 @@
+name: Grand Mesa Data
+abreviation: GM
+crs:
+  epsg: 32613
+shapefile_fpath:
+    # zoom_1: ../../../data/shapefiles/tuolumne_shape.json
+    # zoom_2: ../../../data/shapefiles/cues_shape_3m.json
+    zoom_1: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/shapefiles/grand_mesa_geog.json
+sentinel_fpath:
+    # 40m: /glade/derecho/scratch/rossamower/snow/snowmodel/school/uw/cues/data/sentinel/tuolumne/40_m/
+    # 100m: /glade/derecho/scratch/rossamower/snow/snowmodel/school/uw/cues/data/sentinel/tuolumne/100_m/
+    # 10m: /glade/derecho/scratch/rossamower/snow/snowmodel/school/uw/cues/data/sentinel/tuolumne/
+snowmodel_fpath:
+    # biased: /glade/campaign/ral/hap/rmower/aso/data/snowmodel/USCATM/outputs/wo_assim/pixel_ml_biased_NO_TRAN/
+    # corrected: /glade/campaign/ral/hap/rmower/aso/data/snowmodel/USCATM/outputs/wo_assim/pixel_ml_spatially_bias_corrected_2/
+pillow_data:
+    # USCASJ: /glade/campaign/ral/hap/rmower/aso/data/insitu/USCASJ/processed/pillow_wy_1980_2025.nc

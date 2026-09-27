@@ -1,0 +1,7 @@
+name: Airborne Snow Observatory
+abreviation: ASO
+basin_shapefile:
+    USCATM: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/shapefiles/dem_shape_geog.shp
+    USCASJ: /glade/u/home/rossamower/rmower/aso/data/shape/USCASJ/processed/archive/dem_shape_geog_2017_2025_OLD_MASK.shp
+crs:
+  epsg: 32611

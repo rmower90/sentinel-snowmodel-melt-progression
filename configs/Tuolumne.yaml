@@ -1,0 +1,171 @@
+name: Tuolumne Data
+
+abreviation: CUES
+
+
+# =============================================================================
+# Site locations
+# =============================================================================
+
+location:
+
+    tuolumne_gauge:
+
+        latitude: 37.8762952
+
+        longitude: -119.35475
+
+        x_proj: 292897.95119992027
+
+        y_proj: 4194703.550558779
+
+
+    lyell_gauge:
+
+        latitude: 37.77821
+
+        longitude: -119.26180
+
+        x_proj: 300810.39883943327
+
+        y_proj: 4183616.6507350826
+
+
+    dana_gauge:
+
+        latitude: 37.87672701
+
+        longitude: -119.338341001421
+
+        x_proj: 294342.5361310793
+
+        y_proj: 4194715.155847647
+
+
+    tuolumne_pillow:
+
+        latitude: 37.876406
+
+        longitude: -119.348096
+
+        x_proj: 293483.5665803333
+
+        y_proj: 4194701.09010588
+
+
+    dana_pillow:
+
+        latitude: 37.896162
+
+        longitude: -119.257260
+
+        x_proj: 301526.76158574916
+
+        y_proj: 4196696.178316091
+
+
+# =============================================================================
+# Coordinate reference system
+# =============================================================================
+
+crs:
+
+    epsg: 32611
+
+
+# =============================================================================
+# Repository-based static data
+# =============================================================================
+
+shapefile_fpath:
+
+    zoom_1: "{repo_root}data/shapefiles/tuol_zoom_geog.json"
+
+
+watershed_delineation:
+
+    dana_watershed: "{repo_root}data/tuolumne/watershed_delineation/Dana_Watershed.tif"
+
+    lyell_watershed: "{repo_root}data/tuolumne/watershed_delineation/Lyell_Watershed.tif"
+
+    tuolumne_watershed: "{repo_root}data/tuolumne/watershed_delineation/Tuolumne_Watershed.tif"
+
+basin_shapefile:
+
+    USCATM: "{repo_root}data/shapefiles/dem_shape_geog.shp"
+
+state_boundaries: "{repo_root}data/shapefiles/cb_2018_us_state_20m.shp"
+
+
+# =============================================================================
+# Sentinel-1 data
+# =============================================================================
+
+sentinel_fpath:
+
+    100m: "{data_root}sentinel/tuolumne/100_m/"
+
+    melt_phases: "{data_root}sentinel/tuolumne/100_m/melt_phases/"
+
+
+# =============================================================================
+# SnowModel data
+# =============================================================================
+
+snowmodel_fpath:
+
+    biased: "{data_root}snowmodel/tuolumne/outputs/wo_assim/conus_404/ml_biased/"
+
+    corrected: "{data_root}snowmodel/tuolumne/outputs/wo_assim/conus_404/ml_corrected/"
+
+    aso_match_biased: "{data_root}snowmodel/aso_match/outputs/wo_assim/conus_404/ml_biased/"
+
+    aso_match_prec: "{data_root}snowmodel/aso_match/outputs/wo_assim/conus_404/ml_prec/"
+
+# =============================================================================
+# WRF data
+# =============================================================================
+wrf_forcing:
+    root: "{data_root}aso/data/forcing/USCATM_BUFF/wrf_404/"
+
+    control: "{data_root}aso/data/forcing/USCATM_BUFF/wrf_404/CTRL/wrf_ctrl.nc"
+
+# =============================================================================
+# ASO data
+# =============================================================================
+#
+# This section replaces the need for a separate ASO.yaml for the publication
+# workflow.
+#
+# These paths assume the existing ASO data tree is moved intact underneath:
+#
+#     {data_root}aso/
+#
+# Adjust individual filenames if the final migration changes that structure.
+
+aso:
+
+    swe_spatial: "{data_root}aso/ASO_50M_SWE_SPATIAL.nc"
+
+    dem: "{data_root}aso/ASO_50M_PCDTM_USCATM_bins_1000ft.nc"
+
+# =============================================================================
+# Streamflow data
+# =============================================================================
+#
+# These paths assume the existing streamflow data tree is moved intact underneath:
+#
+#     {repo_root}data/tuolumne/
+#
+# Adjust individual filenames if the final migration changes that structure.
+streamflow_lyell: "{repo_root}data/tuolumne/streamflow/LyellBlwMaclure_streamflow.csv"
+
+
+# =============================================================================
+# Snow pillow data
+# =============================================================================
+
+pillow_data:
+
+    USCASJ: "{data_root}aso/data/insitu/USCASJ/processed/pillow_wy_1980_2025.nc"
+

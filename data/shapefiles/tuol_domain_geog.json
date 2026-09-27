@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "tuol_domain_geog",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.787704467773438, 37.729164123535156 ], [ -119.804832458496094, 38.180625915527344 ], [ -119.209335327148438, 38.193347930908203 ], [ -119.195838928222656, 37.741683959960938 ], [ -119.787704467773438, 37.729164123535156 ] ] ] } }
+]
+}

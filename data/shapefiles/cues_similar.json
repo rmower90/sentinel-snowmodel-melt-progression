@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "cues_similar",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.649953814968825, 37.244338044033562 ], [ -119.649953814968825, 37.344338044033556 ], [ -118.749953814968819, 37.344338044033556 ], [ -118.749953814968819, 37.244338044033562 ], [ -119.649953814968825, 37.244338044033562 ] ] ] } }
+]
+}

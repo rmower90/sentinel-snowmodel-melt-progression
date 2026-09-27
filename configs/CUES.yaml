@@ -1,0 +1,81 @@
+name: CUES
+
+abreviation: CUES
+
+
+# =============================================================================
+# Site locations
+# =============================================================================
+
+location:
+    cues:
+        latitude: 37.643
+        longitude: -119.0291
+        x_proj: 320980.6914009928
+        y_proj: 4168142.798483416
+    sesame: 
+        latitude: 37.650
+        longitude: -119.042
+        x_proj: 319859.3688756512
+        y_proj: 4168944.2504253057
+    mhp:
+        latitude: 37.612
+        longitude: -119.032
+        x_proj: 320650.2962891621
+        y_proj: 4164708.4871553485
+
+# =============================================================================
+# Coordinate reference system
+# =============================================================================
+
+crs:
+
+    epsg: 32611
+
+
+# =============================================================================
+# Repository-based static data
+# =============================================================================
+
+shapefile_fpath:
+
+    zoom_1: "{repo_root}data/shapefiles/cues_shape_mammoth.json"
+    zoom_2: "{repo_root}data/shapefiles/cues_shape_3m.json"
+
+    # Keep/add any other actively used CUES shapefile entries here.
+
+
+# =============================================================================
+# Sentinel-1 data
+# =============================================================================
+
+sentinel_fpath:
+
+    100m: "{data_root}sentinel/cues/100_m/"
+
+    melt_phases: "{data_root}sentinel/cues/100_m/melt_phases/"
+
+
+# =============================================================================
+# SnowModel data
+# =============================================================================
+
+snowmodel_fpath:
+
+    biased: "{data_root}snowmodel/cues/outputs/wo_assim/conus_404/biased/"
+
+    corrected: "{data_root}snowmodel/cues/outputs/wo_assim/conus_404/corrected/"
+
+    optimized: "{data_root}snowmodel/cues/outputs/wo_assim/conus_404/optimized/"
+
+
+# =============================================================================
+# CUES / JDSSS observations
+# =============================================================================
+
+cues_obs:
+
+cues_obs:
+    swe: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/cues/cues/cues_swe_merge_hourly_v1.csv
+    swe_melt: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/cues/cues/cues_lysimeter_1999_present.csv
+    

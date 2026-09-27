@@ -1,0 +1,19 @@
+name: Kaiser Peak Similarity
+abreviation: KSP
+location:
+    ksp:
+        latitude: 37.29433804403356
+        longitude: -119.19995381496882
+        x_proj: 305001.0
+        y_proj: 4129794.0
+crs:
+  epsg: 32611
+shapefile_fpath:
+    # zoom_1: ../../../data/shapefiles/ksp_zoom_1.json
+    # zoom_2: ../../../data/shapefiles/ksp_zoom_2.json
+    zoom_1: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/shapefiles/ksp_zoom_1.json
+    zoom_2: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/data/shapefiles/ksp_zoom_2.json
+sentinel_fpath:
+    40m: /glade/derecho/scratch/rossamower/snow/snowmodel/school/uw/cues/data/sentinel/similar_cues/40_m/
+    10m: /glade/derecho/scratch/rossamower/snow/snowmodel/school/uw/cues/data/sentinel/similar_cues/
+    

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "cues_shape_3m",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.02975, 37.64225 ], [ -119.02975, 37.64375 ], [ -119.02825, 37.64375 ], [ -119.02825, 37.64225 ], [ -119.02975, 37.64225 ] ] ] } }
+]
+}

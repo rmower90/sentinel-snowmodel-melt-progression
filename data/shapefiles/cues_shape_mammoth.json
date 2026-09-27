@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "cues_shape_mammoth",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.079, 37.593 ], [ -119.079, 37.693 ], [ -118.979, 37.693 ], [ -118.979, 37.593 ], [ -119.079, 37.593 ] ] ] } }
+]
+}
