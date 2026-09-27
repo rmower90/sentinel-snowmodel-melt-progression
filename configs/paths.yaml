@@ -3,5 +3,5 @@
 # For a different computing environment, these should be the primary
 # paths that need to change.
 
-repo_root: /glade/u/home/rossamower/school/uw/cues_git/cues_sentinel_snowmodel/
+repo_root: /glade/u/home/rossamower/school/uw/cues_git/sentinel-snowmodel-melt-progression/
 data_root: /glade/u/home/rossamower/rmower/pixel/
