@@ -39,12 +39,28 @@ Analysis notebooks used for the Supporting Information are located in
 ## Data availability
 
 Several observational datasets used by the analysis are included in `data/`.
-Other datasets and model outputs are accessed from their original data
-repositories or from paths specified in the configuration files. Data sources
-and archival locations are described in the manuscript's Open Research section.
 
-Large Sentinel-1 and SnowModel products are not stored directly in this Git
-repository.
+Processed and derived datasets required to evaluate and reproduce the manuscript
+analyses are provided separately from this source-code repository because of
+their size.
+
+For peer review, these data are distributed as a compressed archive
+(`peer_review_data.tar.gz`) through the GitHub Releases associated with this
+repository. The archive includes a README describing its contents and the
+mapping between the archived datasets and the analysis code in this repository.
+
+The peer-review data archive is organized for convenient distribution and does
+not exactly reproduce the directory structure of the original computational
+environment. Consequently, paths in configuration files and analysis notebooks
+may need to be updated to point to the corresponding archived datasets.
+
+The peer-review release is intended to provide access to the data supporting
+the submitted manuscript. A permanent DOI-backed archive of the finalized
+research data and software will be created prior to publication.
+
+Additional observational datasets obtained from external public repositories
+are not duplicated in the peer-review archive. Their sources and persistent
+identifiers are provided in the manuscript Data Availability Statement.
 
 ## Software
 
